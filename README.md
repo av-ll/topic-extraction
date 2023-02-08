@@ -10,6 +10,10 @@ create environment with conda:
 
 conda env create -f environment.yml
 
+activate environment:
+
+conda activate iu-data-analysis
+
 Now you can inspect the code and run it.
 
 Start with load.py which extracts the data and filters it into a csv file
