@@ -102,4 +102,3 @@ dependencies:
   - zstd=1.5.2=hbc0c0cd_6
   - pip:
       - en-core-web-sm==3.5.0
-prefix: /Users/joaomiguelfernandesgoncalves/Enter/envs/iu-data-analysis
