@@ -4,6 +4,8 @@ channels:
   - defaults
 dependencies:
   - appdirs=1.4.4=pyh9f0ad1d_0
+  - brotli-python=1.0.9=py38h4cd09af_8
+  - brotlicffi=1.0.9.2=py38h4cd09af_3
   - brotlipy=0.7.0=py38hef030d1_1005
   - bzip2=1.0.8=h0d85af4_4
   - ca-certificates=2022.12.7=h033912b_0
@@ -21,7 +23,11 @@ dependencies:
   - dataclasses=0.8=pyhc8e2a94_3
   - future=0.18.3=pyhd8ed1ab_0
   - gensim=4.3.0=py38hec72209_1
+  - gmp=6.2.1=h2e338ed_0
   - idna=3.4=pyhd8ed1ab_0
+  - importlib-metadata=6.0.0=pyha770c72_0
+  - importlib_metadata=6.0.0=hd8ed1ab_0
+  - inflate64=0.3.1=py38hef030d1_3
   - jinja2=3.1.2=pyhd8ed1ab_1
   - joblib=1.2.0=pyhd8ed1ab_0
   - langcodes=3.3.0=pyhd8ed1ab_0
@@ -37,6 +43,7 @@ dependencies:
   - libzlib=1.2.13=hfd90126_4
   - llvm-openmp=15.0.7=h61d9ccf_0
   - markupsafe=2.1.2=py38hef030d1_0
+  - multivolumefile=0.2.3=pyhd8ed1ab_0
   - murmurhash=1.0.9=py38h4cd09af_1
   - ncurses=6.3=h96cf925_1
   - nltk=3.8.1=pyhd8ed1ab_0
@@ -48,15 +55,22 @@ dependencies:
   - pip=23.0=pyhd8ed1ab_0
   - pooch=1.6.0=pyhd8ed1ab_0
   - preshed=3.0.8=py38h4cd09af_1
+  - psutil=5.9.4=py38hef030d1_0
+  - py7zr=0.20.2=pyhd8ed1ab_1
+  - pybcj=1.0.1=py38hef030d1_2
+  - pybcpy=0.0.17=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
+  - pycryptodomex=3.16.0=py38hef030d1_0
   - pydantic=1.10.4=py38hef030d1_1
   - pygments=2.14.0=pyhd8ed1ab_0
   - pyopenssl=23.0.0=pyhd8ed1ab_0
+  - pyppmd=1.0.0=py38h4cd09af_1
   - pysocks=1.7.1=pyha2e5f31_6
   - python=3.8.16=hf9b03c3_1_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
   - python_abi=3.8=3_cp38
   - pytz=2022.7.1=pyhd8ed1ab_0
+  - pyzstd=0.15.3=py38h7cbeef7_1
   - readline=8.1.2=h3899abd_0
   - regex=2022.10.31=py38hef030d1_0
   - requests=2.28.2=pyhd8ed1ab_0
@@ -71,6 +85,7 @@ dependencies:
   - spacy-legacy=3.0.12=pyhd8ed1ab_0
   - spacy-loggers=1.0.4=pyhd8ed1ab_0
   - srsly=2.4.5=py38h4cd09af_1
+  - texttable=1.6.7=pyhd8ed1ab_0
   - thinc=8.1.7=py38he49a349_0
   - threadpoolctl=3.1.0=pyh8a188c0_0
   - tk=8.6.12=h5dbffcc_0
@@ -82,4 +97,9 @@ dependencies:
   - wasabi=1.1.1=py38h50d1736_1
   - wheel=0.38.4=pyhd8ed1ab_0
   - xz=5.2.6=h775f41a_0
+  - zipfile-deflate64=0.2.0=py38hef030d1_3
+  - zipp=3.12.1=pyhd8ed1ab_0
+  - zstd=1.5.2=hbc0c0cd_6
+  - pip:
+      - en-core-web-sm==3.5.0
 prefix: /Users/joaomiguelfernandesgoncalves/Enter/envs/iu-data-analysis
