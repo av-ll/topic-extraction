@@ -100,5 +100,3 @@ dependencies:
   - zipfile-deflate64=0.2.0=py38hef030d1_3
   - zipp=3.12.1=pyhd8ed1ab_0
   - zstd=1.5.2=hbc0c0cd_6
-  - pip:
-      - en-core-web-sm==3.5.0
