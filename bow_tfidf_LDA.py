@@ -12,6 +12,10 @@ data = pd.read_csv('clean_data.csv')
 data = data.squeeze()
 
 # Initialize TfidfVectorizer
+# The value of 10% max frequency for TF-IDF
+# was an educated guess based on the wordcloud visualization.
+# 0.1% as the minimum frequency was also deduced from the fact that TF-IDF was giving too much importance
+# to some words that were not very frequent but kept "fuzzying" the topics
 
 tfidf =  TfidfVectorizer(max_df=.10,min_df=1/1000)
 
