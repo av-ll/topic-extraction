@@ -20,6 +20,8 @@ Start with load.py which extracts the data and filters it into a csv file
 
 Then you can inspect clean.py which cleans and lemmatizes the data
 
+You can run wordcloud_vis.py which creates a wordcloud visualization to a png file and discusses the results
+
 Finally you can inspect both bow_tfidf_LDA and bow_tfidf_LSA which
 
 contain the 2 topic modelling techniques described in the conception phase
